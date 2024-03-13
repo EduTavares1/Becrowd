@@ -3,9 +3,9 @@
 
 int main()
 {
-  float raio,area,pi=3.14159;
+  double raio,area,pi=3.14159;
   
-  scanf("%f",&raio);
+  scanf("%lf",&raio);
   area= pi*pow(raio,2);
   
  
